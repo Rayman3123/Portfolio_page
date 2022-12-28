@@ -1,0 +1,384 @@
+@font-face{
+    font-family: 'Larsseit';
+    src: url(fonts/Larsseit.otf);
+}
+@font-face{
+    font-family: 'Larsseit-light';
+    src: url(fonts/Larsseit-Light.otf);
+}
+*{
+    font-family: 'Larsseit';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.header{
+    background: linear-gradient(90deg, #f4f9e2 80%, white 20%);
+    height: auto;
+    padding-bottom: 70px;
+} 
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.navbar_container{
+    margin: 30px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar_container h1{
+    color: #62D0DF;
+}
+
+.navigation{
+    list-style-type: none;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li {
+    margin-bottom: 10px;
+}
+
+.cool-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+
+.contact_button{
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: #62D0DF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    width: 484px;
+    margin: 30px 180px;
+    margin-top: 150px;
+
+}
+
+.header_text h1{
+    color: #62D0DF;
+    font-size: 24px;
+}
+
+.header_text h2{
+    font-size: 48px;
+    color:#22356F;
+}
+
+.header p {
+    font-size: 24px;
+    color: #22356F;
+}
+
+.header_text button{
+    color: #F9B640;
+    height: 50;
+    width: 150;
+    border: none;
+    background-color: #f4f9e2;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.header_text button:hover{
+    background-color:#F9B640;
+    color: white;
+}
+.second{
+    display: flex;
+    
+}
+.second_text{
+    font-size: 24px;
+    color: white;
+    width: auto;
+    background-color: #62D0DF;
+    padding: 150px 180px 90px 180px;
+}
+.second_text span{
+    font-family: 'Larsseit-light';
+}
+
+.second_text h1{
+    margin-bottom: 10%;
+}
+
+.third{
+    padding: 10% 30% 2% 30%;
+    font-size: 24px;
+
+}
+.third h2{
+    font-size: 16px;
+    margin-top: 10%;
+    text-align: center;
+    opacity: .5;
+}
+.plitka_one{
+    height: 360px;
+}
+
+.plitka_one ul{
+    color: white;
+    display: flex;
+    font-size: 32px;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.plitka_one ul li{
+    background-color: #62D0DF;
+    width: 25%;
+    padding: 5% 3% 13% 3%;
+    justify-content: center; 
+    transition-duration: 0.4s;
+}
+.plitka_one ul li p{
+    border-top: 2px solid white;
+    padding-top: 5%;
+}
+
+.plitka_one ul li:hover{
+    transform: scale(1.025);
+}
+
+.plitka_one ul li p::before{
+  content: "•"; 
+  padding-right: 8px;
+  color:orange; 
+}
+*/
+#n1 {
+    background-color: #FFE2DE;
+}
+#n2 {
+    background-color: #C4E769;
+}
+#n3 {
+    background-color: #62D0DF;
+}
+#n4 {
+    background-color: #0052C1;
+}
+
+.plitka_two {
+    margin-top: 10%;
+}
+
+.plitka_two ul{
+    color: white;
+    display: flex;
+    font-size: 32px;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.plitka_two ul li{
+    background-color: #62D0DF;
+    width: 100%;
+    height: 480px;
+    padding: 7% 3% 13% 3%;
+    transition-duration: 0.4s;
+}
+.plitka_two ul li:hover{
+    transform: scale(1.025);
+}
+
+.plitka_two ul li p::before{
+    content: "•"; 
+    padding-right: 8px;
+    color:orange; 
+  }
+
+.plitka_two ul li p{
+    border-top: 2px solid white;
+    padding-top: 5%;
+
+}
+
+#b1 {
+    background-color: #22356F;
+}
+#b2 {
+    background-color: #0052C1;
+}
+#b3 {
+    background-image: url(images/joanna-kosinska-340748.png);
+    background-position: center;
+    background-size: cover;
+}
+#b4 {
+    background-color: #0052C1;
+}
+#b5 {
+    background-color: #FFE2DE;
+}
+#b6 {
+    background-color: #C4E769;
+}
+
+.five {
+    
+}
+
+.five ul{
+    display: flex;
+    color: #22356F;
+    list-style-type: none;
+
+}
+
+.five ul li{
+    padding: 80px 80px 40px 105px;
+    width: 100%;
+}
+
+.five h1 {
+    font-size: 28px;
+    margin-bottom: 5%;
+}
+
+.five p {
+    opacity: .5;
+    font-size: 16px;
+}
+
+.six{
+    margin-top: 5%;
+    display: flex;
+}
+.six_text{
+    padding: 105px 15% 50px 10%;
+}
+
+.six img{
+    width: 30%;
+    height: auto;
+}
+.six h1{
+    color: #22356F;
+    font-size: 16px;
+}
+
+.six p {
+    margin: 30% 0 25% 0;
+    font-size: 36px;
+    color: #22356F;
+}
+
+.six span {
+    color: #62D0DF;
+}
+
+.six h2 {
+    color: #F9B640;
+}
+
+.seven {
+    display: flex;
+}
+
+.seven img {
+    width: 35%;
+    height: auto;
+}
+
+.seven_text {
+    color: white;
+    background-color: #22356F;
+    padding: 100px 15% 50px 15%;
+}
+
+.seven h1 {
+    font-size: 14px;
+}
+
+.seven h2 {
+    margin-top: 230px;
+    font-size: 64px;
+}
+
+.seven p {
+    margin: 75px 0 100px 0;
+    font-size: 36px;
+}
+
+.seven h3 {
+    font-size: 16px;
+    color: #62D0DF;
+}
+
+.eight {
+    display: flex;
+    color: #22356F;
+}
+
+.eight img {
+    height: auto;
+
+}
+
+.eight ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.eight ul li {
+    line-height: 2;
+    font: 14px;
+    width: 100%;
+    padding: 10% 5% 7% 7%;
+    
+}
+
+.eight ul li p {
+    margin: 25% 0 0 0;
+    opacity: 0.5;
+}
+
+.eight ul li h1 {
+    font-size: 14px;
+}
+
+.footer{
+    color: white;
+    background-color: #62D0DF;
+    padding: 30px 200px;
+}
